@@ -171,6 +171,27 @@ color: #f4f4fd;
 
 /* section-two start*/
 
+.section-two-icons-list{
+   display: flex;
+         justify-content: center;
+}
+
+.section-two-icon {
+width: 64px;
+height: 64px;
+
+}
+
+.section-two-icons-item{
+   flex-basis: calc((100% - 72px) / 4);
+   background-color: #f4f4fd;;
+   border: 1px solid #8e8f99;
+      border-radius: 4px;
+      width: 264px;
+      height: 112px;
+
+}
+
 .visually-hidden {
       position: absolute;
       width: 1px;
