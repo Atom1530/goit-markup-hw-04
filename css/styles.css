@@ -127,7 +127,7 @@ margin-right: 76px;
    display: block;
    padding: 24px 0;
    gap: 40px;
-   
+   min-width: 151px;
 }
 
 .contacts-link:hover,
@@ -153,6 +153,7 @@ color: #f4f4fd;
    background-size: cover;
    max-width: 1440px;
    background-position: center;
+   margin: 0 auto;
 }
 
 .main-title-one {
@@ -200,8 +201,6 @@ color: #f4f4fd;
 .section-two-icons-list{
    display: flex;
    justify-content: center;
-   flex-basis: calc((100% - 72px) / 4);
-   justify-content: space-between;
 
 } 
 
@@ -215,8 +214,25 @@ color: #f4f4fd;
    margin-bottom: 8px;
 }
 
-.svg-container{
-   display: flex;
+.svg-container {
+   border: 1px solid #8e8f99;
+      border-radius: 4px;
+      width: 264px;
+      height: 112px;
+      background: #f4f4fd;
+      align-content: center;
+      margin-bottom: 8px;
+}
+
+.svg-icon {
+   width: 64px;
+      height: 64px;
+      margin-left: 100px;
+      margin-right: 100px;
+      
+}
+.svg-container2{
+   display: block;
    align-items: center;
    justify-content: center;
    height: 112px;
@@ -228,12 +244,6 @@ color: #f4f4fd;
    margin-bottom: 8px;
 }
 
-.section-two-icon {
-   width: 64px;
-   height: 64px;
-   margin-left: 100px;
-   margin-right: 100px;
-}
 
 .visually-hidden {
       position: absolute;
@@ -346,7 +356,6 @@ border-radius: 50%;
 .social-svg-pic {
    width: 16px;
    height: 16px;
-   fill: #f4f4fd;
 }
 
 .section-three-list-item {
