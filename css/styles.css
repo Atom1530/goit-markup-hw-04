@@ -87,10 +87,24 @@ margin-right: 76px;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #404bbf;
       padding: 24px 0;
       display: block;
-      position: relative;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link.current {
+   position: relative;
+}
+
+.nav-link.current:after {
+   content: "";
+   width: 48px;
+   height: 4px;
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   border-radius: 2px;
+   background-color: #404BBF;
 }
 
 .contacts {
@@ -119,7 +133,8 @@ margin-right: 76px;
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link.current {
    color: #404bbf;
 }
 
