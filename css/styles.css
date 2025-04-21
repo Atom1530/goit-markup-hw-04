@@ -493,13 +493,16 @@ font-weight: 500;
    padding: 100px 0;
 }
 
-.footer-container-main{
-   display: flex;
-}
 
 .footer-logo-part { 
    color: #f4f4fd ; 
 
+}
+
+.container.footer-add-section {
+   display: flex;
+   align-items: baseline;
+   
 }
 
 .footer-container-one{
